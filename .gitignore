@@ -1,0 +1,9 @@
+node_modules/
+out/
+firebase/public/
+firebase/.firebaserc
+firebase/firestore.rules
+firebase/coach-config.json
+src/coach-alex.html
+src/coach-alex-local.html
+__pycache__/

@@ -1,0 +1,2614 @@
+{
+ "application": "Coach Alex · Gestion Client",
+ "exporteLe": "2026-11-12T16:55:29",
+ "collections": {
+  "clients": [
+   {
+    "id": "cl_nahia",
+    "prenom": "Nahia",
+    "nom": "Iturralde",
+    "email": "nahia.iturralde@example.com",
+    "telephone": "06 12 34 56 78",
+    "objectif": "Recomposition corporelle",
+    "dateCreation": "2026-08-10",
+    "accessCode": "735216"
+   },
+   {
+    "id": "cl_peio",
+    "prenom": "Peio",
+    "nom": "Lascaray",
+    "email": "peio.lascaray@example.com",
+    "telephone": "07 98 76 54 32",
+    "objectif": "Prise de masse",
+    "dateCreation": "2026-11-09"
+   }
+  ],
+  "bilans": [
+   {
+    "id": "cl_nahia",
+    "date": "2026-08-10",
+    "maj": "2026-08-10",
+    "notes": "Très motivée, disponible en soirée. Attention au genou droit (ancienne entorse).",
+    "valide": true,
+    "typePlan": "regime_avec",
+    "genre": "femme",
+    "dateNaissance": "1990-04-22",
+    "taille": "168",
+    "poids": "74",
+    "niveauActivite": "leger",
+    "estimationKilos": "5 à 6 kg",
+    "adresseCoaching": "12 chemin Harismendi, Ustaritz",
+    "mesures": {
+     "tourTaille": "82",
+     "tourHanches": "102",
+     "tourCuisse": "60",
+     "tourBras": "29"
+    },
+    "typeActivitePro": "Infirmière libérale, debout et en voiture",
+    "intensiteActivitePro": "3",
+    "horairesTravail": "Variables, tournées tôt le matin",
+    "fatigueTravail": "4",
+    "particularitesHormonales": "Aucune",
+    "contreIndicationsAlimentaires": "Aucune",
+    "contreIndicationsActivite": "Genou droit : éviter les impacts",
+    "allergies": "Aucune",
+    "problemesCycle": "Non",
+    "grossesse": "Non",
+    "alcool": "1 à 2 verres le week-end",
+    "tabac": "Non",
+    "drogues": "Non",
+    "autresPrecisionsSante": "",
+    "passif": "Surpoids après la 2e grossesse ; course à pied occasionnelle",
+    "dejaCoach": "Non",
+    "problemeAlimentaire": "Grignotage le soir après les tournées",
+    "situationEmotionnelle": "Stable, période chargée au travail",
+    "reactionStress": "3",
+    "enfants": "Oui, deux (6 et 9 ans)",
+    "activitesSportivesActuelles": "Marche, un peu de course",
+    "pretAjouterActivite": "Oui, 2 à 3 fois par semaine",
+    "tempsDisponible": "45 min à 1 h, le soir",
+    "motivationSport": "4",
+    "toleranceDifficulte": "4",
+    "sommeil": "6 h 30 en moyenne, réveils fréquents",
+    "nombreRepas": "3 repas, pas toujours réguliers",
+    "quiCuisine": "Moi, 20 min le soir",
+    "budgetAlimentaire": "Confortable",
+    "regimesEssayes": "Jeûne intermittent (abandonné au bout d'un mois)",
+    "alimentsRefuses": "Abats, fruits de mer",
+    "consommationEau": "1,5 L",
+    "frequenceSocial": "1 fois par semaine",
+    "niveauMotivation": "8",
+    "entourage": "Conjoint soutenant",
+    "proteines": "118",
+    "lipides": "81",
+    "regimeAvec": "1592",
+    "regimeSans": "1339",
+    "maintienAvec": "1992",
+    "maintienSans": "1739",
+    "priseMasseAvec": "2192"
+   },
+   {
+    "id": "cl_peio",
+    "date": "2026-11-09",
+    "maj": "2026-11-09",
+    "notes": "",
+    "valide": false,
+    "genre": "homme",
+    "dateNaissance": "1998-11-03",
+    "taille": "181",
+    "poids": "68",
+    "niveauActivite": "actif",
+    "estimationKilos": "",
+    "adresseCoaching": "4 rue Pannecau, Bayonne",
+    "mesures": {
+     "tourTaille": "76",
+     "tourHanches": "92",
+     "tourCuisse": "54",
+     "tourBras": "30"
+    },
+    "typeActivitePro": "Charpentier",
+    "intensiteActivitePro": "5",
+    "horairesTravail": "7h-16h",
+    "fatigueTravail": "4",
+    "particularitesHormonales": "",
+    "contreIndicationsAlimentaires": "",
+    "contreIndicationsActivite": "",
+    "allergies": "Arachide",
+    "problemesCycle": "",
+    "grossesse": "",
+    "alcool": "Le week-end",
+    "tabac": "Non",
+    "drogues": "Non",
+    "autresPrecisionsSante": "",
+    "passif": "Rugby jusqu'à 22 ans, arrêt après une blessure à l'épaule",
+    "dejaCoach": "Non",
+    "problemeAlimentaire": "Je saute souvent le petit-déjeuner",
+    "situationEmotionnelle": "Bonne",
+    "reactionStress": "2",
+    "enfants": "Non",
+    "activitesSportivesActuelles": "Surf l'été",
+    "pretAjouterActivite": "Oui",
+    "tempsDisponible": "3 séances par semaine le soir",
+    "motivationSport": "5",
+    "toleranceDifficulte": "5",
+    "sommeil": "7 h",
+    "nombreRepas": "2 gros repas",
+    "quiCuisine": "Moi, peu de temps",
+    "budgetAlimentaire": "Contraint",
+    "regimesEssayes": "Aucun",
+    "alimentsRefuses": "Aucun",
+    "consommationEau": "2 L",
+    "frequenceSocial": "2 fois par semaine",
+    "niveauMotivation": "9",
+    "entourage": "Colocataires, neutre",
+    "proteines": "136",
+    "lipides": "88",
+    "regimeAvec": "2198",
+    "regimeSans": "1905",
+    "maintienAvec": "2598",
+    "maintienSans": "2305",
+    "priseMasseAvec": "2798"
+   }
+  ],
+  "evolutions": [
+   {
+    "id": "evo_nahia_62",
+    "clientId": "cl_nahia",
+    "date": "2026-09-10",
+    "poids": "72.8",
+    "mesures": {
+     "tourTaille": "80",
+     "tourHanches": "101",
+     "tourCuisse": "59.5",
+     "tourBras": "29"
+    },
+    "notes": "Bonne régularité, moins de grignotage",
+    "proteines": "116",
+    "lipides": "80",
+    "regimeAvec": "1576",
+    "regimeSans": "1324",
+    "maintienAvec": "1976",
+    "maintienSans": "1724",
+    "priseMasseAvec": "2176"
+   },
+   {
+    "id": "evo_nahia_32",
+    "clientId": "cl_nahia",
+    "date": "2026-10-10",
+    "poids": "71.6",
+    "mesures": {
+     "tourTaille": "78.5",
+     "tourHanches": "100",
+     "tourCuisse": "59",
+     "tourBras": "29.5"
+    },
+    "notes": "Sommeil amélioré",
+    "proteines": "115",
+    "lipides": "79",
+    "regimeAvec": "1559",
+    "regimeSans": "1310",
+    "maintienAvec": "1959",
+    "maintienSans": "1710",
+    "priseMasseAvec": "2159"
+   },
+   {
+    "id": "evo_nahia_1",
+    "clientId": "cl_nahia",
+    "date": "2026-11-10",
+    "poids": "70.4",
+    "mesures": {
+     "tourTaille": "77",
+     "tourHanches": "99",
+     "tourCuisse": "58.5",
+     "tourBras": "30"
+    },
+    "notes": "Genou OK, charges en hausse",
+    "proteines": "113",
+    "lipides": "77",
+    "regimeAvec": "1543",
+    "regimeSans": "1296",
+    "maintienAvec": "1943",
+    "maintienSans": "1696",
+    "priseMasseAvec": "2143"
+   },
+   {
+    "id": "evo_nahia_next",
+    "clientId": "cl_nahia",
+    "date": "2026-12-10",
+    "poids": "",
+    "mesures": {
+     "tourTaille": "",
+     "tourHanches": "",
+     "tourCuisse": "",
+     "tourBras": ""
+    },
+    "notes": "Pesée mensuelle programmée"
+   }
+  ],
+  "mouvements_bib": [
+   {
+    "id": "mv_squat",
+    "nom": "Squat goblet",
+    "groupeMusculaire": "Quadriceps/Fessiers",
+    "typeTravail": "Hypertrophie",
+    "ressourceId": "lec_exec_squat"
+   },
+   {
+    "id": "mv_rdl",
+    "nom": "Soulevé de terre roumain haltères",
+    "groupeMusculaire": "Ischio-jambiers",
+    "typeTravail": "Hypertrophie",
+    "ressourceId": null
+   },
+   {
+    "id": "mv_pompes",
+    "nom": "Pompes",
+    "groupeMusculaire": "Pectoraux/Triceps",
+    "typeTravail": "Hypertrophie",
+    "ressourceId": null
+   },
+   {
+    "id": "mv_rowing",
+    "nom": "Rowing unilatéral haltère",
+    "groupeMusculaire": "Dos",
+    "typeTravail": "Hypertrophie",
+    "ressourceId": null
+   },
+   {
+    "id": "mv_hip",
+    "nom": "Hip thrust",
+    "groupeMusculaire": "Fessiers",
+    "typeTravail": "Hypertrophie",
+    "ressourceId": "lec_exec_hip"
+   },
+   {
+    "id": "mv_dev",
+    "nom": "Développé haltères assis",
+    "groupeMusculaire": "Épaules",
+    "typeTravail": "Hypertrophie",
+    "ressourceId": null
+   },
+   {
+    "id": "mv_fentes",
+    "nom": "Fentes arrière",
+    "groupeMusculaire": "Quadriceps/Fessiers",
+    "typeTravail": "Hypertrophie",
+    "ressourceId": null
+   },
+   {
+    "id": "mv_gainage",
+    "nom": "Gainage (planche)",
+    "groupeMusculaire": "Sangle abdominale",
+    "typeTravail": "Endurance",
+    "ressourceId": null
+   }
+  ],
+  "cycles_bib": [
+   {
+    "id": "cyc_fullbody",
+    "nom": "Débutante · 3 jours",
+    "entrainements": [
+     {
+      "nom": "Jour 1 · Jambes et fessiers",
+      "mouvements": [
+       {
+        "nom": "Squat goblet",
+        "groupeMusculaire": "Quadriceps/Fessiers",
+        "typeTravail": "Hypertrophie",
+        "ressourceId": "lec_exec_squat",
+        "series": 6,
+        "repsCible": 12,
+        "repsSeuilBas": 8,
+        "chargeDepart": 12,
+        "chargeActuelle": 12,
+        "tempsWork": "",
+        "tempo": "2-0-1-0",
+        "tempsRecup": "90",
+        "surchargeProgressive": true,
+        "methode": "6x12",
+        "augmentation": 2.0
+       },
+       {
+        "nom": "Soulevé de terre roumain haltères",
+        "groupeMusculaire": "Ischio-jambiers",
+        "typeTravail": "Hypertrophie",
+        "ressourceId": null,
+        "series": 6,
+        "repsCible": 12,
+        "repsSeuilBas": 8,
+        "chargeDepart": 16,
+        "chargeActuelle": 16,
+        "tempsWork": "",
+        "tempo": "2-0-1-0",
+        "tempsRecup": "90",
+        "surchargeProgressive": true,
+        "methode": "6x12",
+        "augmentation": 2.0
+       },
+       {
+        "nom": "Hip thrust",
+        "groupeMusculaire": "Fessiers",
+        "typeTravail": "Hypertrophie",
+        "ressourceId": "lec_exec_hip",
+        "series": 6,
+        "repsCible": 12,
+        "repsSeuilBas": 8,
+        "chargeDepart": 30,
+        "chargeActuelle": 30,
+        "tempsWork": "",
+        "tempo": "2-0-1-0",
+        "tempsRecup": "90",
+        "surchargeProgressive": true,
+        "methode": "6x12",
+        "augmentation": 2.5
+       },
+       {
+        "nom": "Gainage (planche)",
+        "groupeMusculaire": "Sangle abdominale",
+        "typeTravail": "Endurance",
+        "ressourceId": null,
+        "series": 3,
+        "repsCible": 0,
+        "repsSeuilBas": 0,
+        "chargeDepart": 0,
+        "chargeActuelle": 0,
+        "tempsWork": "45",
+        "tempo": "",
+        "tempsRecup": "60",
+        "surchargeProgressive": false,
+        "methode": null,
+        "augmentation": 0
+       }
+      ]
+     },
+     {
+      "nom": "Jour 2 · Haut du corps",
+      "mouvements": [
+       {
+        "nom": "Pompes",
+        "groupeMusculaire": "Pectoraux/Triceps",
+        "typeTravail": "Hypertrophie",
+        "ressourceId": null,
+        "series": 6,
+        "repsCible": 12,
+        "repsSeuilBas": 8,
+        "chargeDepart": 0,
+        "chargeActuelle": 0,
+        "tempsWork": "",
+        "tempo": "2-0-1-0",
+        "tempsRecup": "75",
+        "surchargeProgressive": false,
+        "methode": null,
+        "augmentation": 0
+       },
+       {
+        "nom": "Rowing unilatéral haltère",
+        "groupeMusculaire": "Dos",
+        "typeTravail": "Hypertrophie",
+        "ressourceId": null,
+        "series": 6,
+        "repsCible": 12,
+        "repsSeuilBas": 8,
+        "chargeDepart": 10,
+        "chargeActuelle": 10,
+        "tempsWork": "",
+        "tempo": "2-0-1-0",
+        "tempsRecup": "90",
+        "surchargeProgressive": true,
+        "methode": "6x12",
+        "augmentation": 2.0
+       },
+       {
+        "nom": "Développé haltères assis",
+        "groupeMusculaire": "Épaules",
+        "typeTravail": "Hypertrophie",
+        "ressourceId": null,
+        "series": 6,
+        "repsCible": 12,
+        "repsSeuilBas": 8,
+        "chargeDepart": 6,
+        "chargeActuelle": 6,
+        "tempsWork": "",
+        "tempo": "2-0-1-0",
+        "tempsRecup": "90",
+        "surchargeProgressive": true,
+        "methode": "6x12",
+        "augmentation": 1.0
+       }
+      ]
+     },
+     {
+      "nom": "Jour 3 · Full body",
+      "mouvements": [
+       {
+        "nom": "Fentes arrière",
+        "groupeMusculaire": "Quadriceps/Fessiers",
+        "typeTravail": "Hypertrophie",
+        "ressourceId": null,
+        "series": 6,
+        "repsCible": 12,
+        "repsSeuilBas": 8,
+        "chargeDepart": 8,
+        "chargeActuelle": 8,
+        "tempsWork": "",
+        "tempo": "2-0-1-0",
+        "tempsRecup": "90",
+        "surchargeProgressive": true,
+        "methode": "6x12",
+        "augmentation": 2.0
+       },
+       {
+        "nom": "Rowing unilatéral haltère",
+        "groupeMusculaire": "Dos",
+        "typeTravail": "Hypertrophie",
+        "ressourceId": null,
+        "series": 6,
+        "repsCible": 12,
+        "repsSeuilBas": 8,
+        "chargeDepart": 10,
+        "chargeActuelle": 10,
+        "tempsWork": "",
+        "tempo": "2-0-1-0",
+        "tempsRecup": "90",
+        "surchargeProgressive": true,
+        "methode": "6x12",
+        "augmentation": 2.0
+       },
+       {
+        "nom": "Squat goblet",
+        "groupeMusculaire": "Quadriceps/Fessiers",
+        "typeTravail": "Hypertrophie",
+        "ressourceId": "lec_exec_squat",
+        "series": 6,
+        "repsCible": 12,
+        "repsSeuilBas": 8,
+        "chargeDepart": 12,
+        "chargeActuelle": 12,
+        "tempsWork": "",
+        "tempo": "2-0-1-0",
+        "tempsRecup": "90",
+        "surchargeProgressive": true,
+        "methode": "6x12",
+        "augmentation": 2.0
+       },
+       {
+        "nom": "Gainage (planche)",
+        "groupeMusculaire": "Sangle abdominale",
+        "typeTravail": "Endurance",
+        "ressourceId": null,
+        "series": 3,
+        "repsCible": 0,
+        "repsSeuilBas": 0,
+        "chargeDepart": 0,
+        "chargeActuelle": 0,
+        "tempsWork": "60",
+        "tempo": "",
+        "tempsRecup": "60",
+        "surchargeProgressive": false,
+        "methode": null,
+        "augmentation": 0
+       }
+      ]
+     }
+    ],
+    "createdAt": "2026-08-13"
+   }
+  ],
+  "attributions": [
+   {
+    "id": "att_nahia",
+    "clientId": "cl_nahia",
+    "cycleBibId": "cyc_fullbody",
+    "cycleNom": "Débutante · 3 jours",
+    "entrainements": [
+     {
+      "nom": "Jour 1 · Jambes et fessiers",
+      "mouvements": [
+       {
+        "nom": "Squat goblet",
+        "groupeMusculaire": "Quadriceps/Fessiers",
+        "typeTravail": "Hypertrophie",
+        "ressourceId": "lec_exec_squat",
+        "series": 6,
+        "repsCible": 12,
+        "repsSeuilBas": 8,
+        "chargeDepart": 12,
+        "chargeActuelle": 20,
+        "tempsWork": "",
+        "tempo": "2-0-1-0",
+        "tempsRecup": "90",
+        "surchargeProgressive": true,
+        "methode": "6x12",
+        "augmentation": 2.0
+       },
+       {
+        "nom": "Soulevé de terre roumain haltères",
+        "groupeMusculaire": "Ischio-jambiers",
+        "typeTravail": "Hypertrophie",
+        "ressourceId": null,
+        "series": 6,
+        "repsCible": 12,
+        "repsSeuilBas": 8,
+        "chargeDepart": 16,
+        "chargeActuelle": 24,
+        "tempsWork": "",
+        "tempo": "2-0-1-0",
+        "tempsRecup": "90",
+        "surchargeProgressive": true,
+        "methode": "6x12",
+        "augmentation": 2.0
+       },
+       {
+        "nom": "Hip thrust",
+        "groupeMusculaire": "Fessiers",
+        "typeTravail": "Hypertrophie",
+        "ressourceId": "lec_exec_hip",
+        "series": 6,
+        "repsCible": 12,
+        "repsSeuilBas": 8,
+        "chargeDepart": 30,
+        "chargeActuelle": 42.5,
+        "tempsWork": "",
+        "tempo": "2-0-1-0",
+        "tempsRecup": "90",
+        "surchargeProgressive": true,
+        "methode": "6x12",
+        "augmentation": 2.5
+       },
+       {
+        "nom": "Gainage (planche)",
+        "groupeMusculaire": "Sangle abdominale",
+        "typeTravail": "Endurance",
+        "ressourceId": null,
+        "series": 3,
+        "repsCible": 0,
+        "repsSeuilBas": 0,
+        "chargeDepart": 0,
+        "chargeActuelle": 0,
+        "tempsWork": "45",
+        "tempo": "",
+        "tempsRecup": "60",
+        "surchargeProgressive": false,
+        "methode": null,
+        "augmentation": 0
+       }
+      ],
+      "valide": true
+     },
+     {
+      "nom": "Jour 2 · Haut du corps",
+      "mouvements": [
+       {
+        "nom": "Pompes",
+        "groupeMusculaire": "Pectoraux/Triceps",
+        "typeTravail": "Hypertrophie",
+        "ressourceId": null,
+        "series": 6,
+        "repsCible": 12,
+        "repsSeuilBas": 8,
+        "chargeDepart": 0,
+        "chargeActuelle": 0,
+        "tempsWork": "",
+        "tempo": "2-0-1-0",
+        "tempsRecup": "75",
+        "surchargeProgressive": false,
+        "methode": null,
+        "augmentation": 0
+       },
+       {
+        "nom": "Rowing unilatéral haltère",
+        "groupeMusculaire": "Dos",
+        "typeTravail": "Hypertrophie",
+        "ressourceId": null,
+        "series": 6,
+        "repsCible": 12,
+        "repsSeuilBas": 8,
+        "chargeDepart": 10,
+        "chargeActuelle": 14,
+        "tempsWork": "",
+        "tempo": "2-0-1-0",
+        "tempsRecup": "90",
+        "surchargeProgressive": true,
+        "methode": "6x12",
+        "augmentation": 2.0
+       },
+       {
+        "nom": "Développé haltères assis",
+        "groupeMusculaire": "Épaules",
+        "typeTravail": "Hypertrophie",
+        "ressourceId": null,
+        "series": 6,
+        "repsCible": 12,
+        "repsSeuilBas": 8,
+        "chargeDepart": 6,
+        "chargeActuelle": 9,
+        "tempsWork": "",
+        "tempo": "2-0-1-0",
+        "tempsRecup": "90",
+        "surchargeProgressive": true,
+        "methode": "6x12",
+        "augmentation": 1.0
+       }
+      ],
+      "valide": false
+     },
+     {
+      "nom": "Jour 3 · Full body",
+      "mouvements": [
+       {
+        "nom": "Fentes arrière",
+        "groupeMusculaire": "Quadriceps/Fessiers",
+        "typeTravail": "Hypertrophie",
+        "ressourceId": null,
+        "series": 6,
+        "repsCible": 12,
+        "repsSeuilBas": 8,
+        "chargeDepart": 8,
+        "chargeActuelle": 14,
+        "tempsWork": "",
+        "tempo": "2-0-1-0",
+        "tempsRecup": "90",
+        "surchargeProgressive": true,
+        "methode": "6x12",
+        "augmentation": 2.0
+       },
+       {
+        "nom": "Rowing unilatéral haltère",
+        "groupeMusculaire": "Dos",
+        "typeTravail": "Hypertrophie",
+        "ressourceId": null,
+        "series": 6,
+        "repsCible": 12,
+        "repsSeuilBas": 8,
+        "chargeDepart": 10,
+        "chargeActuelle": 14,
+        "tempsWork": "",
+        "tempo": "2-0-1-0",
+        "tempsRecup": "90",
+        "surchargeProgressive": true,
+        "methode": "6x12",
+        "augmentation": 2.0
+       },
+       {
+        "nom": "Squat goblet",
+        "groupeMusculaire": "Quadriceps/Fessiers",
+        "typeTravail": "Hypertrophie",
+        "ressourceId": "lec_exec_squat",
+        "series": 6,
+        "repsCible": 12,
+        "repsSeuilBas": 8,
+        "chargeDepart": 12,
+        "chargeActuelle": 20,
+        "tempsWork": "",
+        "tempo": "2-0-1-0",
+        "tempsRecup": "90",
+        "surchargeProgressive": true,
+        "methode": "6x12",
+        "augmentation": 2.0
+       },
+       {
+        "nom": "Gainage (planche)",
+        "groupeMusculaire": "Sangle abdominale",
+        "typeTravail": "Endurance",
+        "ressourceId": null,
+        "series": 3,
+        "repsCible": 0,
+        "repsSeuilBas": 0,
+        "chargeDepart": 0,
+        "chargeActuelle": 0,
+        "tempsWork": "60",
+        "tempo": "",
+        "tempsRecup": "60",
+        "surchargeProgressive": false,
+        "methode": null,
+        "augmentation": 0
+       }
+      ],
+      "valide": true
+     }
+    ],
+    "currentEntrainementIndex": 1,
+    "active": true,
+    "createdAt": "2026-08-15"
+   }
+  ],
+  "programmes": [
+   {
+    "id": "se_nahia_00",
+    "clientId": "cl_nahia",
+    "date": "2026-08-11",
+    "heure": "18:30",
+    "type": "avec",
+    "formule": "classique",
+    "tarif": 0,
+    "statut": "faite",
+    "paiement": true,
+    "offert": true,
+    "resume": "Séance découverte offerte",
+    "notes": "",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 1,
+    "entrainementNom": "Jour 2 · Haut du corps",
+    "entrainementValide": true
+   },
+   {
+    "id": "se_nahia_01",
+    "clientId": "cl_nahia",
+    "date": "2026-08-18",
+    "heure": "18:30",
+    "type": "avec",
+    "formule": "classique",
+    "tarif": 90,
+    "statut": "faite",
+    "paiement": true,
+    "offert": false,
+    "resume": "",
+    "notes": "",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 2,
+    "entrainementNom": "Jour 3 · Full body",
+    "entrainementValide": true
+   },
+   {
+    "id": "se_nahia_02",
+    "clientId": "cl_nahia",
+    "date": "2026-08-22",
+    "heure": "10:00",
+    "type": "avec",
+    "formule": "express",
+    "tarif": 60,
+    "statut": "faite",
+    "paiement": true,
+    "offert": false,
+    "resume": "",
+    "notes": "",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 0,
+    "entrainementNom": "Jour 1 · Jambes et fessiers",
+    "entrainementValide": true
+   },
+   {
+    "id": "se_nahia_03",
+    "clientId": "cl_nahia",
+    "date": "2026-08-25",
+    "heure": "18:30",
+    "type": "avec",
+    "formule": "classique",
+    "tarif": 90,
+    "statut": "faite",
+    "paiement": true,
+    "offert": false,
+    "resume": "",
+    "notes": "",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 1,
+    "entrainementNom": "Jour 2 · Haut du corps",
+    "entrainementValide": true
+   },
+   {
+    "id": "se_nahia_04",
+    "clientId": "cl_nahia",
+    "date": "2026-09-01",
+    "heure": "18:30",
+    "type": "avec",
+    "formule": "classique",
+    "tarif": 90,
+    "statut": "faite",
+    "paiement": true,
+    "offert": false,
+    "resume": "",
+    "notes": "",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 2,
+    "entrainementNom": "Jour 3 · Full body",
+    "entrainementValide": true
+   },
+   {
+    "id": "se_nahia_05",
+    "clientId": "cl_nahia",
+    "date": "2026-09-05",
+    "heure": "10:00",
+    "type": "avec",
+    "formule": "express",
+    "tarif": 60,
+    "statut": "faite",
+    "paiement": true,
+    "offert": false,
+    "resume": "",
+    "notes": "",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 0,
+    "entrainementNom": "Jour 1 · Jambes et fessiers",
+    "entrainementValide": true
+   },
+   {
+    "id": "se_nahia_06",
+    "clientId": "cl_nahia",
+    "date": "2026-09-08",
+    "heure": "18:30",
+    "type": "avec",
+    "formule": "classique",
+    "tarif": 90,
+    "statut": "faite",
+    "paiement": true,
+    "offert": false,
+    "resume": "",
+    "notes": "",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 1,
+    "entrainementNom": "Jour 2 · Haut du corps",
+    "entrainementValide": true
+   },
+   {
+    "id": "se_nahia_07",
+    "clientId": "cl_nahia",
+    "date": "2026-09-15",
+    "heure": "18:30",
+    "type": "avec",
+    "formule": "classique",
+    "tarif": 90,
+    "statut": "faite",
+    "paiement": true,
+    "offert": false,
+    "resume": "",
+    "notes": "",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 2,
+    "entrainementNom": "Jour 3 · Full body",
+    "entrainementValide": true
+   },
+   {
+    "id": "se_nahia_08",
+    "clientId": "cl_nahia",
+    "date": "2026-09-19",
+    "heure": "10:00",
+    "type": "avec",
+    "formule": "express",
+    "tarif": 60,
+    "statut": "faite",
+    "paiement": true,
+    "offert": false,
+    "resume": "",
+    "notes": "",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 0,
+    "entrainementNom": "Jour 1 · Jambes et fessiers",
+    "entrainementValide": true
+   },
+   {
+    "id": "se_nahia_09",
+    "clientId": "cl_nahia",
+    "date": "2026-09-22",
+    "heure": "18:30",
+    "type": "avec",
+    "formule": "classique",
+    "tarif": 90,
+    "statut": "faite",
+    "paiement": true,
+    "offert": false,
+    "resume": "",
+    "notes": "",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 1,
+    "entrainementNom": "Jour 2 · Haut du corps",
+    "entrainementValide": true
+   },
+   {
+    "id": "se_nahia_10",
+    "clientId": "cl_nahia",
+    "date": "2026-09-29",
+    "heure": "18:30",
+    "type": "avec",
+    "formule": "classique",
+    "tarif": 90,
+    "statut": "faite",
+    "paiement": true,
+    "offert": false,
+    "resume": "",
+    "notes": "",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 2,
+    "entrainementNom": "Jour 3 · Full body",
+    "entrainementValide": true
+   },
+   {
+    "id": "se_nahia_11",
+    "clientId": "cl_nahia",
+    "date": "2026-10-03",
+    "heure": "10:00",
+    "type": "avec",
+    "formule": "express",
+    "tarif": 60,
+    "statut": "faite",
+    "paiement": true,
+    "offert": false,
+    "resume": "",
+    "notes": "",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 0,
+    "entrainementNom": "Jour 1 · Jambes et fessiers",
+    "entrainementValide": true
+   },
+   {
+    "id": "se_nahia_12",
+    "clientId": "cl_nahia",
+    "date": "2026-10-06",
+    "heure": "18:30",
+    "type": "avec",
+    "formule": "classique",
+    "tarif": 90,
+    "statut": "faite",
+    "paiement": true,
+    "offert": false,
+    "resume": "",
+    "notes": "",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 1,
+    "entrainementNom": "Jour 2 · Haut du corps",
+    "entrainementValide": true
+   },
+   {
+    "id": "se_nahia_13",
+    "clientId": "cl_nahia",
+    "date": "2026-10-13",
+    "heure": "18:30",
+    "type": "avec",
+    "formule": "classique",
+    "tarif": 90,
+    "statut": "faite",
+    "paiement": true,
+    "offert": false,
+    "resume": "",
+    "notes": "",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 2,
+    "entrainementNom": "Jour 3 · Full body",
+    "entrainementValide": true
+   },
+   {
+    "id": "se_nahia_14",
+    "clientId": "cl_nahia",
+    "date": "2026-10-17",
+    "heure": "10:00",
+    "type": "avec",
+    "formule": "express",
+    "tarif": 60,
+    "statut": "faite",
+    "paiement": true,
+    "offert": false,
+    "resume": "",
+    "notes": "",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 0,
+    "entrainementNom": "Jour 1 · Jambes et fessiers",
+    "entrainementValide": true
+   },
+   {
+    "id": "se_nahia_15",
+    "clientId": "cl_nahia",
+    "date": "2026-10-20",
+    "heure": "18:30",
+    "type": "avec",
+    "formule": "classique",
+    "tarif": 90,
+    "statut": "annulee",
+    "paiement": false,
+    "offert": false,
+    "resume": "",
+    "notes": "Reportée : garde d'enfants",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 1,
+    "entrainementNom": "Jour 2 · Haut du corps",
+    "entrainementValide": true
+   },
+   {
+    "id": "se_nahia_16",
+    "clientId": "cl_nahia",
+    "date": "2026-10-27",
+    "heure": "18:30",
+    "type": "avec",
+    "formule": "classique",
+    "tarif": 90,
+    "statut": "faite",
+    "paiement": true,
+    "offert": false,
+    "resume": "",
+    "notes": "",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 2,
+    "entrainementNom": "Jour 3 · Full body",
+    "entrainementValide": true
+   },
+   {
+    "id": "se_nahia_17",
+    "clientId": "cl_nahia",
+    "date": "2026-10-31",
+    "heure": "10:00",
+    "type": "avec",
+    "formule": "express",
+    "tarif": 60,
+    "statut": "faite",
+    "paiement": true,
+    "offert": false,
+    "resume": "",
+    "notes": "",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 0,
+    "entrainementNom": "Jour 1 · Jambes et fessiers",
+    "entrainementValide": true
+   },
+   {
+    "id": "se_nahia_18",
+    "clientId": "cl_nahia",
+    "date": "2026-11-03",
+    "heure": "18:30",
+    "type": "avec",
+    "formule": "classique",
+    "tarif": 90,
+    "statut": "faite",
+    "paiement": true,
+    "offert": false,
+    "resume": "",
+    "notes": "",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 1,
+    "entrainementNom": "Jour 2 · Haut du corps",
+    "entrainementValide": true
+   },
+   {
+    "id": "se_nahia_19",
+    "clientId": "cl_nahia",
+    "date": "2026-11-10",
+    "heure": "18:30",
+    "type": "avec",
+    "formule": "classique",
+    "tarif": 90,
+    "statut": "faite",
+    "paiement": false,
+    "offert": false,
+    "resume": "",
+    "notes": "",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 2,
+    "entrainementNom": "Jour 3 · Full body",
+    "entrainementValide": true
+   },
+   {
+    "id": "se_nahia_20",
+    "clientId": "cl_nahia",
+    "date": "2026-11-14",
+    "heure": "10:00",
+    "type": "avec",
+    "formule": "express",
+    "tarif": 60,
+    "statut": "prevue",
+    "paiement": false,
+    "offert": false,
+    "resume": "",
+    "notes": "",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 0,
+    "entrainementNom": "Jour 1 · Jambes et fessiers",
+    "entrainementValide": false
+   },
+   {
+    "id": "se_nahia_21",
+    "clientId": "cl_nahia",
+    "date": "2026-11-17",
+    "heure": "18:30",
+    "type": "avec",
+    "formule": "classique",
+    "tarif": 90,
+    "statut": "prevue",
+    "paiement": false,
+    "offert": false,
+    "resume": "",
+    "notes": "",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 1,
+    "entrainementNom": "Jour 2 · Haut du corps",
+    "entrainementValide": false
+   },
+   {
+    "id": "se_nahia_22",
+    "clientId": "cl_nahia",
+    "date": "2026-11-24",
+    "heure": "18:30",
+    "type": "avec",
+    "formule": "classique",
+    "tarif": 90,
+    "statut": "prevue",
+    "paiement": false,
+    "offert": false,
+    "resume": "",
+    "notes": "",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 2,
+    "entrainementNom": "Jour 3 · Full body",
+    "entrainementValide": false
+   },
+   {
+    "id": "se_nahia_23",
+    "clientId": "cl_nahia",
+    "date": "2026-11-28",
+    "heure": "10:00",
+    "type": "avec",
+    "formule": "express",
+    "tarif": 60,
+    "statut": "prevue",
+    "paiement": false,
+    "offert": false,
+    "resume": "",
+    "notes": "",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 0,
+    "entrainementNom": "Jour 1 · Jambes et fessiers",
+    "entrainementValide": false
+   }
+  ],
+  "entrainement_logs": [
+   {
+    "id": "log_nahia_00",
+    "clientId": "cl_nahia",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 1,
+    "entrainementNom": "Jour 2 · Haut du corps",
+    "seanceId": "se_nahia_00",
+    "date": "2026-08-11",
+    "resultats": [
+     {
+      "mouvementIndex": 0,
+      "nom": "Pompes",
+      "repsMin": null,
+      "commentaire": "Dernière série dure"
+     },
+     {
+      "mouvementIndex": 1,
+      "nom": "Rowing unilatéral haltère",
+      "repsMin": 12,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 2,
+      "nom": "Développé haltères assis",
+      "repsMin": 12,
+      "commentaire": ""
+     }
+    ],
+    "vu": true,
+    "createdAt": "2026-08-11"
+   },
+   {
+    "id": "log_nahia_01",
+    "clientId": "cl_nahia",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 2,
+    "entrainementNom": "Jour 3 · Full body",
+    "seanceId": "se_nahia_01",
+    "date": "2026-08-18",
+    "resultats": [
+     {
+      "mouvementIndex": 0,
+      "nom": "Fentes arrière",
+      "repsMin": 11,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 1,
+      "nom": "Rowing unilatéral haltère",
+      "repsMin": 11,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 2,
+      "nom": "Squat goblet",
+      "repsMin": 11,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 3,
+      "nom": "Gainage (planche)",
+      "repsMin": null,
+      "commentaire": ""
+     }
+    ],
+    "vu": true,
+    "createdAt": "2026-08-18"
+   },
+   {
+    "id": "log_nahia_02",
+    "clientId": "cl_nahia",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 0,
+    "entrainementNom": "Jour 1 · Jambes et fessiers",
+    "seanceId": "se_nahia_02",
+    "date": "2026-08-22",
+    "resultats": [
+     {
+      "mouvementIndex": 0,
+      "nom": "Squat goblet",
+      "repsMin": 10,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 1,
+      "nom": "Soulevé de terre roumain haltères",
+      "repsMin": 10,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 2,
+      "nom": "Hip thrust",
+      "repsMin": 10,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 3,
+      "nom": "Gainage (planche)",
+      "repsMin": null,
+      "commentaire": ""
+     }
+    ],
+    "vu": true,
+    "createdAt": "2026-08-22"
+   },
+   {
+    "id": "log_nahia_03",
+    "clientId": "cl_nahia",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 1,
+    "entrainementNom": "Jour 2 · Haut du corps",
+    "seanceId": "se_nahia_03",
+    "date": "2026-08-25",
+    "resultats": [
+     {
+      "mouvementIndex": 0,
+      "nom": "Pompes",
+      "repsMin": null,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 1,
+      "nom": "Rowing unilatéral haltère",
+      "repsMin": 12,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 2,
+      "nom": "Développé haltères assis",
+      "repsMin": 12,
+      "commentaire": ""
+     }
+    ],
+    "vu": true,
+    "createdAt": "2026-08-25"
+   },
+   {
+    "id": "log_nahia_04",
+    "clientId": "cl_nahia",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 2,
+    "entrainementNom": "Jour 3 · Full body",
+    "seanceId": "se_nahia_04",
+    "date": "2026-09-01",
+    "resultats": [
+     {
+      "mouvementIndex": 0,
+      "nom": "Fentes arrière",
+      "repsMin": 11,
+      "commentaire": "Dernière série dure"
+     },
+     {
+      "mouvementIndex": 1,
+      "nom": "Rowing unilatéral haltère",
+      "repsMin": 11,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 2,
+      "nom": "Squat goblet",
+      "repsMin": 11,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 3,
+      "nom": "Gainage (planche)",
+      "repsMin": null,
+      "commentaire": ""
+     }
+    ],
+    "vu": true,
+    "createdAt": "2026-09-01"
+   },
+   {
+    "id": "log_nahia_05",
+    "clientId": "cl_nahia",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 0,
+    "entrainementNom": "Jour 1 · Jambes et fessiers",
+    "seanceId": "se_nahia_05",
+    "date": "2026-09-05",
+    "resultats": [
+     {
+      "mouvementIndex": 0,
+      "nom": "Squat goblet",
+      "repsMin": 10,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 1,
+      "nom": "Soulevé de terre roumain haltères",
+      "repsMin": 10,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 2,
+      "nom": "Hip thrust",
+      "repsMin": 10,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 3,
+      "nom": "Gainage (planche)",
+      "repsMin": null,
+      "commentaire": ""
+     }
+    ],
+    "vu": true,
+    "createdAt": "2026-09-05"
+   },
+   {
+    "id": "log_nahia_06",
+    "clientId": "cl_nahia",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 1,
+    "entrainementNom": "Jour 2 · Haut du corps",
+    "seanceId": "se_nahia_06",
+    "date": "2026-09-08",
+    "resultats": [
+     {
+      "mouvementIndex": 0,
+      "nom": "Pompes",
+      "repsMin": null,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 1,
+      "nom": "Rowing unilatéral haltère",
+      "repsMin": 12,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 2,
+      "nom": "Développé haltères assis",
+      "repsMin": 12,
+      "commentaire": ""
+     }
+    ],
+    "vu": true,
+    "createdAt": "2026-09-08"
+   },
+   {
+    "id": "log_nahia_07",
+    "clientId": "cl_nahia",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 2,
+    "entrainementNom": "Jour 3 · Full body",
+    "seanceId": "se_nahia_07",
+    "date": "2026-09-15",
+    "resultats": [
+     {
+      "mouvementIndex": 0,
+      "nom": "Fentes arrière",
+      "repsMin": 11,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 1,
+      "nom": "Rowing unilatéral haltère",
+      "repsMin": 11,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 2,
+      "nom": "Squat goblet",
+      "repsMin": 11,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 3,
+      "nom": "Gainage (planche)",
+      "repsMin": null,
+      "commentaire": ""
+     }
+    ],
+    "vu": true,
+    "createdAt": "2026-09-15"
+   },
+   {
+    "id": "log_nahia_08",
+    "clientId": "cl_nahia",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 2,
+    "entrainementNom": "Jour 3 · Full body",
+    "seanceId": null,
+    "date": "2026-09-17",
+    "resultats": [
+     {
+      "mouvementIndex": 0,
+      "nom": "Fentes arrière",
+      "repsMin": 10,
+      "commentaire": "Fait à la maison, genou OK"
+     },
+     {
+      "mouvementIndex": 1,
+      "nom": "Rowing unilatéral haltère",
+      "repsMin": 10,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 2,
+      "nom": "Squat goblet",
+      "repsMin": 10,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 3,
+      "nom": "Gainage (planche)",
+      "repsMin": null,
+      "commentaire": ""
+     }
+    ],
+    "vu": true,
+    "createdAt": "2026-09-17"
+   },
+   {
+    "id": "log_nahia_09",
+    "clientId": "cl_nahia",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 0,
+    "entrainementNom": "Jour 1 · Jambes et fessiers",
+    "seanceId": "se_nahia_08",
+    "date": "2026-09-19",
+    "resultats": [
+     {
+      "mouvementIndex": 0,
+      "nom": "Squat goblet",
+      "repsMin": 10,
+      "commentaire": "Dernière série dure"
+     },
+     {
+      "mouvementIndex": 1,
+      "nom": "Soulevé de terre roumain haltères",
+      "repsMin": 10,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 2,
+      "nom": "Hip thrust",
+      "repsMin": 10,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 3,
+      "nom": "Gainage (planche)",
+      "repsMin": null,
+      "commentaire": ""
+     }
+    ],
+    "vu": true,
+    "createdAt": "2026-09-19"
+   },
+   {
+    "id": "log_nahia_10",
+    "clientId": "cl_nahia",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 1,
+    "entrainementNom": "Jour 2 · Haut du corps",
+    "seanceId": "se_nahia_09",
+    "date": "2026-09-22",
+    "resultats": [
+     {
+      "mouvementIndex": 0,
+      "nom": "Pompes",
+      "repsMin": null,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 1,
+      "nom": "Rowing unilatéral haltère",
+      "repsMin": 12,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 2,
+      "nom": "Développé haltères assis",
+      "repsMin": 12,
+      "commentaire": ""
+     }
+    ],
+    "vu": true,
+    "createdAt": "2026-09-22"
+   },
+   {
+    "id": "log_nahia_11",
+    "clientId": "cl_nahia",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 2,
+    "entrainementNom": "Jour 3 · Full body",
+    "seanceId": "se_nahia_10",
+    "date": "2026-09-29",
+    "resultats": [
+     {
+      "mouvementIndex": 0,
+      "nom": "Fentes arrière",
+      "repsMin": 11,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 1,
+      "nom": "Rowing unilatéral haltère",
+      "repsMin": 11,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 2,
+      "nom": "Squat goblet",
+      "repsMin": 11,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 3,
+      "nom": "Gainage (planche)",
+      "repsMin": null,
+      "commentaire": ""
+     }
+    ],
+    "vu": true,
+    "createdAt": "2026-09-29"
+   },
+   {
+    "id": "log_nahia_12",
+    "clientId": "cl_nahia",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 2,
+    "entrainementNom": "Jour 3 · Full body",
+    "seanceId": null,
+    "date": "2026-10-01",
+    "resultats": [
+     {
+      "mouvementIndex": 0,
+      "nom": "Fentes arrière",
+      "repsMin": 10,
+      "commentaire": "Fait à la maison, genou OK"
+     },
+     {
+      "mouvementIndex": 1,
+      "nom": "Rowing unilatéral haltère",
+      "repsMin": 10,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 2,
+      "nom": "Squat goblet",
+      "repsMin": 10,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 3,
+      "nom": "Gainage (planche)",
+      "repsMin": null,
+      "commentaire": ""
+     }
+    ],
+    "vu": true,
+    "createdAt": "2026-10-01"
+   },
+   {
+    "id": "log_nahia_13",
+    "clientId": "cl_nahia",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 0,
+    "entrainementNom": "Jour 1 · Jambes et fessiers",
+    "seanceId": "se_nahia_11",
+    "date": "2026-10-03",
+    "resultats": [
+     {
+      "mouvementIndex": 0,
+      "nom": "Squat goblet",
+      "repsMin": 10,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 1,
+      "nom": "Soulevé de terre roumain haltères",
+      "repsMin": 10,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 2,
+      "nom": "Hip thrust",
+      "repsMin": 10,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 3,
+      "nom": "Gainage (planche)",
+      "repsMin": null,
+      "commentaire": ""
+     }
+    ],
+    "vu": true,
+    "createdAt": "2026-10-03"
+   },
+   {
+    "id": "log_nahia_14",
+    "clientId": "cl_nahia",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 1,
+    "entrainementNom": "Jour 2 · Haut du corps",
+    "seanceId": "se_nahia_12",
+    "date": "2026-10-06",
+    "resultats": [
+     {
+      "mouvementIndex": 0,
+      "nom": "Pompes",
+      "repsMin": null,
+      "commentaire": "Dernière série dure"
+     },
+     {
+      "mouvementIndex": 1,
+      "nom": "Rowing unilatéral haltère",
+      "repsMin": 12,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 2,
+      "nom": "Développé haltères assis",
+      "repsMin": 12,
+      "commentaire": ""
+     }
+    ],
+    "vu": true,
+    "createdAt": "2026-10-06"
+   },
+   {
+    "id": "log_nahia_15",
+    "clientId": "cl_nahia",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 2,
+    "entrainementNom": "Jour 3 · Full body",
+    "seanceId": "se_nahia_13",
+    "date": "2026-10-13",
+    "resultats": [
+     {
+      "mouvementIndex": 0,
+      "nom": "Fentes arrière",
+      "repsMin": 11,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 1,
+      "nom": "Rowing unilatéral haltère",
+      "repsMin": 11,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 2,
+      "nom": "Squat goblet",
+      "repsMin": 11,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 3,
+      "nom": "Gainage (planche)",
+      "repsMin": null,
+      "commentaire": ""
+     }
+    ],
+    "vu": true,
+    "createdAt": "2026-10-13"
+   },
+   {
+    "id": "log_nahia_16",
+    "clientId": "cl_nahia",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 2,
+    "entrainementNom": "Jour 3 · Full body",
+    "seanceId": null,
+    "date": "2026-10-15",
+    "resultats": [
+     {
+      "mouvementIndex": 0,
+      "nom": "Fentes arrière",
+      "repsMin": 10,
+      "commentaire": "Fait à la maison, genou OK"
+     },
+     {
+      "mouvementIndex": 1,
+      "nom": "Rowing unilatéral haltère",
+      "repsMin": 10,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 2,
+      "nom": "Squat goblet",
+      "repsMin": 10,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 3,
+      "nom": "Gainage (planche)",
+      "repsMin": null,
+      "commentaire": ""
+     }
+    ],
+    "vu": true,
+    "createdAt": "2026-10-15"
+   },
+   {
+    "id": "log_nahia_17",
+    "clientId": "cl_nahia",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 0,
+    "entrainementNom": "Jour 1 · Jambes et fessiers",
+    "seanceId": "se_nahia_14",
+    "date": "2026-10-17",
+    "resultats": [
+     {
+      "mouvementIndex": 0,
+      "nom": "Squat goblet",
+      "repsMin": 10,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 1,
+      "nom": "Soulevé de terre roumain haltères",
+      "repsMin": 10,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 2,
+      "nom": "Hip thrust",
+      "repsMin": 10,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 3,
+      "nom": "Gainage (planche)",
+      "repsMin": null,
+      "commentaire": ""
+     }
+    ],
+    "vu": true,
+    "createdAt": "2026-10-17"
+   },
+   {
+    "id": "log_nahia_18",
+    "clientId": "cl_nahia",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 2,
+    "entrainementNom": "Jour 3 · Full body",
+    "seanceId": "se_nahia_16",
+    "date": "2026-10-27",
+    "resultats": [
+     {
+      "mouvementIndex": 0,
+      "nom": "Fentes arrière",
+      "repsMin": 12,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 1,
+      "nom": "Rowing unilatéral haltère",
+      "repsMin": 12,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 2,
+      "nom": "Squat goblet",
+      "repsMin": 12,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 3,
+      "nom": "Gainage (planche)",
+      "repsMin": null,
+      "commentaire": ""
+     }
+    ],
+    "vu": true,
+    "createdAt": "2026-10-27"
+   },
+   {
+    "id": "log_nahia_19",
+    "clientId": "cl_nahia",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 2,
+    "entrainementNom": "Jour 3 · Full body",
+    "seanceId": null,
+    "date": "2026-10-29",
+    "resultats": [
+     {
+      "mouvementIndex": 0,
+      "nom": "Fentes arrière",
+      "repsMin": 10,
+      "commentaire": "Fait à la maison, genou OK"
+     },
+     {
+      "mouvementIndex": 1,
+      "nom": "Rowing unilatéral haltère",
+      "repsMin": 10,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 2,
+      "nom": "Squat goblet",
+      "repsMin": 10,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 3,
+      "nom": "Gainage (planche)",
+      "repsMin": null,
+      "commentaire": ""
+     }
+    ],
+    "vu": true,
+    "createdAt": "2026-10-29"
+   },
+   {
+    "id": "log_nahia_20",
+    "clientId": "cl_nahia",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 0,
+    "entrainementNom": "Jour 1 · Jambes et fessiers",
+    "seanceId": "se_nahia_17",
+    "date": "2026-10-31",
+    "resultats": [
+     {
+      "mouvementIndex": 0,
+      "nom": "Squat goblet",
+      "repsMin": 11,
+      "commentaire": "Dernière série dure"
+     },
+     {
+      "mouvementIndex": 1,
+      "nom": "Soulevé de terre roumain haltères",
+      "repsMin": 11,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 2,
+      "nom": "Hip thrust",
+      "repsMin": 11,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 3,
+      "nom": "Gainage (planche)",
+      "repsMin": null,
+      "commentaire": ""
+     }
+    ],
+    "vu": true,
+    "createdAt": "2026-10-31"
+   },
+   {
+    "id": "log_nahia_21",
+    "clientId": "cl_nahia",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 1,
+    "entrainementNom": "Jour 2 · Haut du corps",
+    "seanceId": "se_nahia_18",
+    "date": "2026-11-03",
+    "resultats": [
+     {
+      "mouvementIndex": 0,
+      "nom": "Pompes",
+      "repsMin": null,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 1,
+      "nom": "Rowing unilatéral haltère",
+      "repsMin": 10,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 2,
+      "nom": "Développé haltères assis",
+      "repsMin": 10,
+      "commentaire": ""
+     }
+    ],
+    "vu": true,
+    "createdAt": "2026-11-03"
+   },
+   {
+    "id": "log_nahia_22",
+    "clientId": "cl_nahia",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 2,
+    "entrainementNom": "Jour 3 · Full body",
+    "seanceId": null,
+    "date": "2026-11-05",
+    "resultats": [
+     {
+      "mouvementIndex": 0,
+      "nom": "Fentes arrière",
+      "repsMin": 10,
+      "commentaire": "Fait à la maison, genou OK"
+     },
+     {
+      "mouvementIndex": 1,
+      "nom": "Rowing unilatéral haltère",
+      "repsMin": 10,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 2,
+      "nom": "Squat goblet",
+      "repsMin": 10,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 3,
+      "nom": "Gainage (planche)",
+      "repsMin": null,
+      "commentaire": ""
+     }
+    ],
+    "vu": false,
+    "createdAt": "2026-11-05"
+   },
+   {
+    "id": "log_nahia_23",
+    "clientId": "cl_nahia",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 2,
+    "entrainementNom": "Jour 3 · Full body",
+    "seanceId": "se_nahia_19",
+    "date": "2026-11-10",
+    "resultats": [
+     {
+      "mouvementIndex": 0,
+      "nom": "Fentes arrière",
+      "repsMin": 12,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 1,
+      "nom": "Rowing unilatéral haltère",
+      "repsMin": 12,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 2,
+      "nom": "Squat goblet",
+      "repsMin": 12,
+      "commentaire": ""
+     },
+     {
+      "mouvementIndex": 3,
+      "nom": "Gainage (planche)",
+      "repsMin": null,
+      "commentaire": ""
+     }
+    ],
+    "vu": true,
+    "createdAt": "2026-11-10"
+   }
+  ],
+  "suivi_config": [
+   {
+    "id": "cl_nahia",
+    "segments": [
+     {
+      "start": "2026-08-10",
+      "end": null
+     }
+    ]
+   }
+  ],
+  "suivis": [
+   {
+    "id": "cl_nahia_2026-08-10",
+    "clientId": "cl_nahia",
+    "periodeDebut": "2026-08-10",
+    "periodeFin": "2026-09-10",
+    "nbSeances": 7,
+    "tarif": 0,
+    "paiement": true,
+    "annule": false
+   },
+   {
+    "id": "cl_nahia_2026-09-10",
+    "clientId": "cl_nahia",
+    "periodeDebut": "2026-09-10",
+    "periodeFin": "2026-10-10",
+    "nbSeances": 6,
+    "tarif": 0,
+    "paiement": true,
+    "annule": false
+   },
+   {
+    "id": "cl_nahia_2026-10-10",
+    "clientId": "cl_nahia",
+    "periodeDebut": "2026-10-10",
+    "periodeFin": "2026-11-10",
+    "nbSeances": 5,
+    "tarif": 0,
+    "paiement": true,
+    "annule": false
+   },
+   {
+    "id": "cl_nahia_2026-11-10",
+    "clientId": "cl_nahia",
+    "periodeDebut": "2026-11-10",
+    "periodeFin": "2026-12-10",
+    "nbSeances": 0,
+    "tarif": 89,
+    "paiement": false,
+    "annule": false
+   }
+  ],
+  "indisponibilites": [
+   {
+    "id": "ind_lundi",
+    "type": "recurrente",
+    "jourSemaine": "1",
+    "heureDebut": "12:00",
+    "heureFin": "14:00",
+    "motif": "Pause déjeuner"
+   },
+   {
+    "id": "ind_ponct",
+    "type": "ponctuelle",
+    "date": "2026-11-20",
+    "heureDebut": "09:00",
+    "heureFin": "22:00",
+    "motif": "Formation"
+   }
+  ],
+  "demandes": [
+   {
+    "id": "dem_nahia_1",
+    "clientId": "cl_nahia",
+    "date": "2026-11-21",
+    "heureDebut": "19:00",
+    "formule": "express",
+    "statut": "attente",
+    "createdAt": "2026-11-11",
+    "attributionId": "att_nahia",
+    "entrainementIndex": 1,
+    "entrainementNom": "Jour 2 · Haut du corps"
+   }
+  ],
+  "lecons": [
+   {
+    "id": "lec_nutrition",
+    "nom": "Nutrition fondamentale",
+    "parentId": null,
+    "type": "dossier",
+    "createdAt": "2026-08-13"
+   },
+   {
+    "id": "lec_calories",
+    "nom": "Les calories et le calcul des besoins",
+    "parentId": "lec_nutrition",
+    "type": "ressource",
+    "videoAssetId": null,
+    "createdAt": "2026-08-13",
+    "texte": "Une calorie est une unité d'énergie, ni bonne ni mauvaise en soi. Le bilan calorique reste le facteur déterminant de la prise ou de la perte de poids. Les besoins affichés dans votre profil sont estimés avec la formule de Mifflin-St Jeor, puis ajustés à chaque pesée.\n\nCe qui compte : la moyenne sur la semaine, pas la perfection chaque jour."
+   },
+   {
+    "id": "lec_proteines",
+    "nom": "Les protéines : combien et quand",
+    "parentId": "lec_nutrition",
+    "type": "ressource",
+    "videoAssetId": null,
+    "createdAt": "2026-08-13",
+    "texte": "Visez l'objectif de protéines de votre profil, réparti sur 3 à 4 prises dans la journée. Une source par repas suffit : œufs, poisson, volaille, laitages, légumineuses. Le timing précis autour de la séance compte moins que le total de la journée."
+   },
+   {
+    "id": "lec_sommeil",
+    "nom": "Le sommeil, moitié du travail",
+    "parentId": "lec_nutrition",
+    "type": "ressource",
+    "videoAssetId": null,
+    "createdAt": "2026-08-13",
+    "texte": "C'est pendant le sommeil profond que la récupération musculaire et l'ancrage des apprentissages moteurs se font. Une semaine à 6 h au lieu de 8 fait grimper le cortisol et augmente les fringales du soir. Priorité à une heure de coucher régulière."
+   },
+   {
+    "id": "lec_exec",
+    "nom": "Exécution des mouvements",
+    "parentId": null,
+    "type": "dossier",
+    "createdAt": "2026-08-13"
+   },
+   {
+    "id": "lec_exec_squat",
+    "nom": "Squat goblet",
+    "parentId": "lec_exec",
+    "type": "ressource",
+    "videoAssetId": null,
+    "createdAt": "2026-08-13",
+    "texte": "Haltère tenu contre la poitrine, pieds largeur d'épaules, pointes légèrement ouvertes. Descendez en poussant les hanches vers l'arrière puis en pliant les genoux, dos droit, coudes entre les genoux en bas. Les genoux suivent l'axe des pieds.\n\nErreur fréquente : relever le buste trop tôt en remontant."
+   },
+   {
+    "id": "lec_exec_hip",
+    "nom": "Hip thrust",
+    "parentId": "lec_exec",
+    "type": "ressource",
+    "videoAssetId": null,
+    "createdAt": "2026-08-13",
+    "texte": "Haut du dos sur le banc, pieds à plat largeur de hanches. Poussez les hanches vers le haut jusqu'à l'alignement genoux-hanches-épaules en serrant fort les fessiers, menton rentré. Redescendez sans toucher le sol.\n\nErreur fréquente : cambrer le bas du dos au lieu de contracter les fessiers."
+   }
+  ],
+  "lecons_vues": [
+   {
+    "id": "cl_nahia_lec_calories",
+    "clientId": "cl_nahia",
+    "leconId": "lec_calories",
+    "vuAt": "2026-10-02"
+   },
+   {
+    "id": "cl_nahia_lec_exec_squat",
+    "clientId": "cl_nahia",
+    "leconId": "lec_exec_squat",
+    "vuAt": "2026-08-23"
+   }
+  ],
+  "niveaux_config": [
+   {
+    "id": "niv_1",
+    "niveau": 1,
+    "leconRequiseId": "lec_calories",
+    "recompenseTexte": "Séance Express offerte"
+   },
+   {
+    "id": "niv_2",
+    "niveau": 2,
+    "leconRequiseId": "lec_proteines",
+    "recompenseTexte": "Bilan diététique complet offert"
+   },
+   {
+    "id": "niv_3",
+    "niveau": 3,
+    "leconRequiseId": "lec_sommeil",
+    "recompenseTexte": "-10 % sur le suivi mensuel pendant 3 mois"
+   }
+  ],
+  "produits_bib": [
+   {
+    "id": "pr_poulet",
+    "nom": "Blanc de poulet",
+    "marque": "",
+    "categorie": "Viande/Poisson/Œufs",
+    "kcal100": 165,
+    "proteines100": 31,
+    "lipides100": 3.6,
+    "glucides100": 0
+   },
+   {
+    "id": "pr_oeuf",
+    "nom": "Œuf entier",
+    "marque": "",
+    "categorie": "Viande/Poisson/Œufs",
+    "kcal100": 155,
+    "proteines100": 13,
+    "lipides100": 11,
+    "glucides100": 1.1
+   },
+   {
+    "id": "pr_saumon",
+    "nom": "Saumon",
+    "marque": "",
+    "categorie": "Viande/Poisson/Œufs",
+    "kcal100": 208,
+    "proteines100": 20,
+    "lipides100": 13,
+    "glucides100": 0
+   },
+   {
+    "id": "pr_riz",
+    "nom": "Riz complet cuit",
+    "marque": "",
+    "categorie": "Féculents",
+    "kcal100": 123,
+    "proteines100": 2.6,
+    "lipides100": 1,
+    "glucides100": 25
+   },
+   {
+    "id": "pr_avoine",
+    "nom": "Flocons d'avoine",
+    "marque": "",
+    "categorie": "Féculents",
+    "kcal100": 389,
+    "proteines100": 17,
+    "lipides100": 7,
+    "glucides100": 66
+   },
+   {
+    "id": "pr_pdt",
+    "nom": "Pomme de terre",
+    "marque": "",
+    "categorie": "Féculents",
+    "kcal100": 77,
+    "proteines100": 2,
+    "lipides100": 0.1,
+    "glucides100": 17
+   },
+   {
+    "id": "pr_skyr",
+    "nom": "Skyr nature",
+    "marque": "Danone",
+    "categorie": "Produits laitiers",
+    "kcal100": 63,
+    "proteines100": 11,
+    "lipides100": 0.2,
+    "glucides100": 4
+   },
+   {
+    "id": "pr_fb",
+    "nom": "Fromage blanc 3 %",
+    "marque": "",
+    "categorie": "Produits laitiers",
+    "kcal100": 60,
+    "proteines100": 8,
+    "lipides100": 3,
+    "glucides100": 4
+   },
+   {
+    "id": "pr_brocoli",
+    "nom": "Brocoli",
+    "marque": "",
+    "categorie": "Légumes",
+    "kcal100": 34,
+    "proteines100": 2.8,
+    "lipides100": 0.4,
+    "glucides100": 7
+   },
+   {
+    "id": "pr_banane",
+    "nom": "Banane",
+    "marque": "",
+    "categorie": "Fruits",
+    "kcal100": 89,
+    "proteines100": 1.1,
+    "lipides100": 0.3,
+    "glucides100": 23
+   },
+   {
+    "id": "pr_pomme",
+    "nom": "Pomme",
+    "marque": "",
+    "categorie": "Fruits",
+    "kcal100": 52,
+    "proteines100": 0.3,
+    "lipides100": 0.2,
+    "glucides100": 14
+   },
+   {
+    "id": "pr_huile",
+    "nom": "Huile d'olive",
+    "marque": "",
+    "categorie": "Matières grasses",
+    "kcal100": 884,
+    "proteines100": 0,
+    "lipides100": 100,
+    "glucides100": 0
+   },
+   {
+    "id": "pr_amandes",
+    "nom": "Amandes",
+    "marque": "",
+    "categorie": "Oléagineux",
+    "kcal100": 579,
+    "proteines100": 21,
+    "lipides100": 50,
+    "glucides100": 22
+   }
+  ],
+  "recettes": [
+   {
+    "id": "rec_bol",
+    "nom": "Bol du matin skyr-avoine",
+    "guide": "Mélanger le skyr et les flocons la veille au soir. Ajouter la banane en rondelles et les amandes au moment de manger.",
+    "ingredients": [
+     {
+      "produitId": "pr_skyr",
+      "nom": "Skyr nature",
+      "quantiteG": 200,
+      "kcal100": 63,
+      "prot100": 11,
+      "lip100": 0.2
+     },
+     {
+      "produitId": "pr_avoine",
+      "nom": "Flocons d'avoine",
+      "quantiteG": 40,
+      "kcal100": 389,
+      "prot100": 17,
+      "lip100": 7
+     },
+     {
+      "produitId": "pr_banane",
+      "nom": "Banane",
+      "quantiteG": 100,
+      "kcal100": 89,
+      "prot100": 1.1,
+      "lip100": 0.3
+     },
+     {
+      "produitId": "pr_amandes",
+      "nom": "Amandes",
+      "quantiteG": 15,
+      "kcal100": 579,
+      "prot100": 21,
+      "lip100": 50
+     }
+    ],
+    "kcal": 457.45,
+    "proteines": 33.05,
+    "lipides": 11.0,
+    "createdAt": "2026-10-12"
+   }
+  ],
+  "journal_alimentaire": [
+   {
+    "id": "ja_nahia_01",
+    "clientId": "cl_nahia",
+    "date": "2026-11-11",
+    "produitNom": "Recette : Bol du matin skyr-avoine",
+    "quantiteG": null,
+    "kcal100": null,
+    "proteines100": null,
+    "lipides100": null,
+    "recetteId": "rec_bol",
+    "kcal": 457.45,
+    "proteines": 33.05,
+    "lipides": 11.0,
+    "createdAt": "2026-11-11"
+   },
+   {
+    "id": "ja_nahia_02",
+    "clientId": "cl_nahia",
+    "date": "2026-11-11",
+    "produitNom": "Blanc de poulet",
+    "quantiteG": 150,
+    "kcal100": 165,
+    "proteines100": 31,
+    "lipides100": 3.6,
+    "kcal": 247.5,
+    "proteines": 46.5,
+    "lipides": 5.4,
+    "createdAt": "2026-11-11"
+   },
+   {
+    "id": "ja_nahia_03",
+    "clientId": "cl_nahia",
+    "date": "2026-11-11",
+    "produitNom": "Riz complet cuit",
+    "quantiteG": 180,
+    "kcal100": 123,
+    "proteines100": 2.6,
+    "lipides100": 1,
+    "kcal": 221.4,
+    "proteines": 4.68,
+    "lipides": 1.8,
+    "createdAt": "2026-11-11"
+   },
+   {
+    "id": "ja_nahia_04",
+    "clientId": "cl_nahia",
+    "date": "2026-11-11",
+    "produitNom": "Brocoli",
+    "quantiteG": 200,
+    "kcal100": 34,
+    "proteines100": 2.8,
+    "lipides100": 0.4,
+    "kcal": 68.0,
+    "proteines": 5.6,
+    "lipides": 0.8,
+    "createdAt": "2026-11-11"
+   },
+   {
+    "id": "ja_nahia_05",
+    "clientId": "cl_nahia",
+    "date": "2026-11-11",
+    "produitNom": "Huile d'olive",
+    "quantiteG": 10,
+    "kcal100": 884,
+    "proteines100": 0,
+    "lipides100": 100,
+    "kcal": 88.4,
+    "proteines": 0.0,
+    "lipides": 10.0,
+    "createdAt": "2026-11-11"
+   },
+   {
+    "id": "ja_nahia_06",
+    "clientId": "cl_nahia",
+    "date": "2026-11-10",
+    "produitNom": "Recette : Bol du matin skyr-avoine",
+    "quantiteG": null,
+    "kcal100": null,
+    "proteines100": null,
+    "lipides100": null,
+    "recetteId": "rec_bol",
+    "kcal": 457.45,
+    "proteines": 33.05,
+    "lipides": 11.0,
+    "createdAt": "2026-11-10"
+   },
+   {
+    "id": "ja_nahia_07",
+    "clientId": "cl_nahia",
+    "date": "2026-11-10",
+    "produitNom": "Saumon",
+    "quantiteG": 140,
+    "kcal100": 208,
+    "proteines100": 20,
+    "lipides100": 13,
+    "kcal": 291.2,
+    "proteines": 28.0,
+    "lipides": 18.2,
+    "createdAt": "2026-11-10"
+   },
+   {
+    "id": "ja_nahia_08",
+    "clientId": "cl_nahia",
+    "date": "2026-11-10",
+    "produitNom": "Pomme de terre",
+    "quantiteG": 250,
+    "kcal100": 77,
+    "proteines100": 2,
+    "lipides100": 0.1,
+    "kcal": 192.5,
+    "proteines": 5.0,
+    "lipides": 0.25,
+    "createdAt": "2026-11-10"
+   },
+   {
+    "id": "ja_nahia_09",
+    "clientId": "cl_nahia",
+    "date": "2026-11-10",
+    "produitNom": "Pomme",
+    "quantiteG": 150,
+    "kcal100": 52,
+    "proteines100": 0.3,
+    "lipides100": 0.2,
+    "kcal": 78.0,
+    "proteines": 0.45,
+    "lipides": 0.3,
+    "createdAt": "2026-11-10"
+   },
+   {
+    "id": "ja_nahia_10",
+    "clientId": "cl_nahia",
+    "date": "2026-11-10",
+    "produitNom": "Fromage blanc 3 %",
+    "quantiteG": 200,
+    "kcal100": 60,
+    "proteines100": 8,
+    "lipides100": 3,
+    "kcal": 120.0,
+    "proteines": 16.0,
+    "lipides": 6.0,
+    "createdAt": "2026-11-10"
+   },
+   {
+    "id": "ja_nahia_11",
+    "clientId": "cl_nahia",
+    "date": "2026-11-09",
+    "produitNom": "Œuf entier",
+    "quantiteG": 120,
+    "kcal100": 155,
+    "proteines100": 13,
+    "lipides100": 11,
+    "kcal": 186.0,
+    "proteines": 15.6,
+    "lipides": 13.2,
+    "createdAt": "2026-11-09"
+   },
+   {
+    "id": "ja_nahia_12",
+    "clientId": "cl_nahia",
+    "date": "2026-11-09",
+    "produitNom": "Flocons d'avoine",
+    "quantiteG": 50,
+    "kcal100": 389,
+    "proteines100": 17,
+    "lipides100": 7,
+    "kcal": 194.5,
+    "proteines": 8.5,
+    "lipides": 3.5,
+    "createdAt": "2026-11-09"
+   },
+   {
+    "id": "ja_nahia_13",
+    "clientId": "cl_nahia",
+    "date": "2026-11-09",
+    "produitNom": "Blanc de poulet",
+    "quantiteG": 160,
+    "kcal100": 165,
+    "proteines100": 31,
+    "lipides100": 3.6,
+    "kcal": 264.0,
+    "proteines": 49.6,
+    "lipides": 5.76,
+    "createdAt": "2026-11-09"
+   },
+   {
+    "id": "ja_nahia_14",
+    "clientId": "cl_nahia",
+    "date": "2026-11-09",
+    "produitNom": "Riz complet cuit",
+    "quantiteG": 200,
+    "kcal100": 123,
+    "proteines100": 2.6,
+    "lipides100": 1,
+    "kcal": 246.0,
+    "proteines": 5.2,
+    "lipides": 2.0,
+    "createdAt": "2026-11-09"
+   },
+   {
+    "id": "ja_nahia_15",
+    "clientId": "cl_nahia",
+    "date": "2026-11-09",
+    "produitNom": "Banane",
+    "quantiteG": 120,
+    "kcal100": 89,
+    "proteines100": 1.1,
+    "lipides100": 0.3,
+    "kcal": 106.8,
+    "proteines": 1.32,
+    "lipides": 0.36,
+    "createdAt": "2026-11-09"
+   }
+  ],
+  "challenges": [
+   {
+    "id": "ch_sucre",
+    "nom": "Zéro sucre ajouté",
+    "description": "Pas de sodas, biscuits ni sucre dans le café jusqu'à la fin du mois. Les fruits sont permis.",
+    "dateDebut": "2026-11-01",
+    "dateFin": "2026-11-30",
+    "clientsCible": "all",
+    "createdAt": "2026-11-01"
+   },
+   {
+    "id": "ch_pas",
+    "nom": "10 000 pas par jour",
+    "description": "Tous les jours du mois, montre ou téléphone en poche.",
+    "dateDebut": "2026-10-01",
+    "dateFin": "2026-10-31",
+    "clientsCible": "all",
+    "createdAt": "2026-09-28"
+   }
+  ],
+  "challenge_participations": [
+   {
+    "id": "ch_pas_cl_nahia",
+    "challengeId": "ch_pas",
+    "clientId": "cl_nahia",
+    "statut": "reussi",
+    "declaredAt": "2026-10-30"
+   }
+  ],
+  "demandes_rdv": [
+   {
+    "id": "rdv_peio",
+    "clientId": "cl_peio",
+    "type": "reel",
+    "disponibilites": "Soirs de semaine après 18 h, samedi matin",
+    "statut": "attente",
+    "createdAt": "2026-11-09"
+   }
+  ]
+ }
+}

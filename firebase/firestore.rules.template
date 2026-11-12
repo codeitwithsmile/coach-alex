@@ -1,0 +1,86 @@
+rules_version = '2';
+// Règles de sécurité Coach Alex · Gestion Client.
+// Coach : le compte dont l'e-mail est COACH_EMAIL (remplacé par tools/build_firebase.py).
+// Client : un compte relié à une fiche client via users/{uid}.clientId ; il ne voit que ses propres documents.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn(){ return request.auth != null; }
+    function isCoach(){
+      return signedIn() && request.auth.token.email != null
+        && request.auth.token.email.lower() == "__COACH_EMAIL__";
+    }
+    function linkPath(){ return /databases/$(database)/documents/users/$(request.auth.uid); }
+    function isLinked(){ return signedIn() && exists(linkPath()); }
+    function myClientId(){ return get(linkPath()).data.clientId; }
+    function ownsDoc(){ return isLinked() && resource.data.clientId == myClientId(); }
+    function writesOwn(){ return isLinked() && request.resource.data.clientId == myClientId(); }
+    function isMe(id){ return isLinked() && id == myClientId(); }
+
+    // Le coach peut tout, partout.
+    match /{document=**} { allow read, write: if isCoach(); }
+
+    // Réglages : la page d'accueil publique lit settings/site sans connexion.
+    match /settings/site { allow read: if true; }
+    match /settings/paiement { allow get: if isLinked(); }
+
+    // Codes d'invitation : lisibles par tout compte connecté (pour relier son compte), écrits par le coach seul.
+    match /codes/{code} { allow get: if signedIn(); }
+
+    // Compte -> fiche client. Création uniquement avec un code valide qui pointe vers ce client.
+    match /users/{uid} {
+      allow get: if signedIn() && request.auth.uid == uid;
+      allow create: if signedIn() && request.auth.uid == uid
+        && request.resource.data.clientId is string
+        && request.resource.data.code is string
+        && exists(/databases/$(database)/documents/codes/$(request.resource.data.code))
+        && get(/databases/$(database)/documents/codes/$(request.resource.data.code)).data.clientId == request.resource.data.clientId;
+    }
+
+    // Questionnaire public « Devenir client » : un visiteur crée sa fiche, son bilan et une demande de rendez-vous.
+    match /clients/{id} {
+      allow create: if true;
+      allow get, update: if isMe(id);
+    }
+    match /bilans/{id} {
+      allow create: if true;
+      allow get, update: if isMe(id);
+    }
+    match /demandes_rdv/{id} {
+      allow create: if true;
+      allow read: if ownsDoc();
+    }
+    match /suivi_config/{id} { allow get: if isMe(id); }
+
+    // Bibliothèques partagées : lecture pour tout client relié.
+    match /lecons/{id} { allow read: if isLinked(); }
+    match /mouvements_bib/{id} { allow read: if isLinked(); }
+    match /cycles_bib/{id} { allow read: if isLinked(); }
+    match /produits_bib/{id} { allow read: if isLinked(); }
+    match /recettes/{id} { allow read: if isLinked(); }
+    match /challenges/{id} { allow read: if isLinked(); }
+    match /niveaux_config/{id} { allow read: if isLinked(); }
+    match /indisponibilites/{id} { allow read: if isLinked(); }
+
+    // Documents propres au client : lecture de ses documents, écriture de ses documents seulement.
+    match /evolutions/{id} { allow read: if ownsDoc(); allow create, update: if writesOwn(); allow delete: if ownsDoc(); }
+    match /programmes/{id} {
+      allow read: if ownsDoc();
+      // le client valide son entraînement ou déclare un paiement ; jamais les champs financiers ou l'horaire
+      allow update: if ownsDoc() && writesOwn()
+        && !request.resource.data.diff(resource.data).affectedKeys().hasAny(['paiement','tarif','offert','statut','clientId','date','heure','formule','type']);
+    }
+    match /suivis/{id} {
+      allow read: if ownsDoc();
+      allow update: if ownsDoc()
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['paiementDeclare','paiementDeclareAt']);
+    }
+    match /attributions/{id} { allow read: if ownsDoc(); allow update: if ownsDoc() && writesOwn(); }
+    match /entrainement_logs/{id} { allow read: if ownsDoc(); allow create, update: if writesOwn(); }
+    match /journal_alimentaire/{id} { allow read: if ownsDoc(); allow create, update: if writesOwn(); allow delete: if ownsDoc(); }
+    match /demandes/{id} { allow read: if ownsDoc(); allow create: if writesOwn(); }
+    match /demandes_resiliation/{id} { allow read: if ownsDoc(); allow create: if writesOwn(); }
+    match /challenge_participations/{id} { allow read: if ownsDoc(); allow create, update: if writesOwn(); }
+    match /lecons_vues/{id} { allow read: if ownsDoc(); allow create, update: if writesOwn(); }
+  }
+}
